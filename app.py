@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 
 app = Flask(__name__)
-server = app.server
+
 
 # Load your trained model
 model = load_model('my_model.h5')
